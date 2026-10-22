@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SITEMAP XML: Mapa del sitio web para buscadores (Google, Bing). Les indica la lista exacta de páginas públicas que deben indexar -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <!-- Página Principal (Inicio): loc indica la ruta relativa y lastmod la fecha de última actualización -->
+    <url>
+        <loc>index.html</loc>
+        <lastmod>2025-02-23T20:00:00+00:00</lastmod>
+        <!-- Referencia de imágenes asociadas a esta página para el buscador de Google Imágenes -->
+        <image:image>
+            <image:loc>images/logo.svg</image:loc>
+            <image:title>Logo de Meowy</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>images/home_meowy.webp</image:loc>
+            <image:title>Meowy App Mockup</image:title>
+        </image:image>
+    </url>
+
+    <!-- Página de Características y Privacidad por Diseño -->
+    <url>
+        <loc>caracteristicas.html</loc>
+        <lastmod>2025-02-23T20:00:00+00:00</lastmod>
+    </url>
+
+    <!-- Blog Hub y Artículos Publicados -->
+    <url>
+        <loc>blog.html</loc>
+        <lastmod>2025-02-23T20:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>articulo-rutina-de-noche.html</loc>
+        <lastmod>2025-02-23T20:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>articulo-vitaminas-y-drenadores.html</loc>
+        <lastmod>2025-02-23T20:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>articulo-journaling-minimalista.html</loc>
+        <lastmod>2025-02-23T20:00:00+00:00</lastmod>
+    </url>
+
+    <!-- Página de Contacto -->
+    <url>
+        <loc>contacto.html</loc>
+        <lastmod>2025-02-23T20:00:00+00:00</lastmod>
+    </url>
+
+    <!-- Base de Conocimiento y Preguntas Frecuentes (FAQ) -->
+    <url>
+        <loc>faq.html</loc>
+        <lastmod>2025-02-23T20:00:00+00:00</lastmod>
+    </url>
+
+</urlset>

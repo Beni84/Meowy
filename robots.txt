@@ -1,0 +1,12 @@
+# robots.txt para Meowy (App de Diario Emocional y Bienestar)
+User-agent: *
+Allow: /
+
+# Bloquear la indexación de páginas de políticas legales, términos y errores
+Disallow: /privacidad.html
+Disallow: /terminos.html
+Disallow: /cookies.html
+Disallow: /404.html
+
+# Ubicación del mapa del sitio web para buscadores
+Sitemap: sitemap.xml
