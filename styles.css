@@ -148,6 +148,18 @@ html {
   transform: none !important;
 }
 
+.btn-cta:disabled,
+.btn-cta[disabled] {
+  background-color: #c4bbf0 !important;
+  color: #ffffff !important;
+  opacity: 0.65;
+  cursor: not-allowed !important;
+  pointer-events: auto !important;
+  box-shadow: none !important;
+  animation: none !important;
+  border-color: transparent !important;
+}
+
 .hero-section {
   padding: 100px 0 80px 0 !important;
   background-color: #fcfbfa;

@@ -137,7 +137,7 @@
             </div>
 
             <div class="d-grid">
-              <button type="submit" class="btn btn-cta py-3 fs-6">
+              <button type="submit" id="submitBtn" class="btn btn-cta py-3 fs-6" disabled>
                 <i class="bi bi-send-fill me-2"></i> Enviar mensaje
               </button>
             </div>
@@ -229,6 +229,35 @@
     scrollBtn.addEventListener("click", function() {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
+
+    // Validación interactiva del formulario de contacto
+    const nameInput = document.getElementById("contactName");
+    const emailInput = document.getElementById("contactEmail");
+    const subjectSelect = document.getElementById("contactSubject");
+    const messageInput = document.getElementById("contactMessage");
+    const privacyCheck = document.getElementById("privacyConsent");
+    const submitBtn = document.getElementById("submitBtn");
+
+    function validateForm() {
+      const isNameValid = nameInput.value.trim().length > 0;
+      const isEmailValid = emailInput.value.trim().length > 0 && emailInput.checkValidity();
+      const isSubjectValid = subjectSelect.value !== "";
+      const isMessageValid = messageInput.value.trim().length > 0;
+      const isPrivacyChecked = privacyCheck.checked;
+
+      const isValid = isNameValid && isEmailValid && isSubjectValid && isMessageValid && isPrivacyChecked;
+      submitBtn.disabled = !isValid;
+    }
+
+    if (nameInput && emailInput && subjectSelect && messageInput && privacyCheck && submitBtn) {
+      nameInput.addEventListener("input", validateForm);
+      emailInput.addEventListener("input", validateForm);
+      subjectSelect.addEventListener("change", validateForm);
+      messageInput.addEventListener("input", validateForm);
+      privacyCheck.addEventListener("change", validateForm);
+
+      validateForm();
+    }
   });
 </script>
 </body>
