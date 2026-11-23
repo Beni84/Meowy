@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://tudominio.com/index.html</loc>
-    <lastmod>2025-02-23</lastmod>
+    <loc>https://beni84.github.io/Meowy/index.html</loc>
+    <lastmod>2025-02-23T20:00:00+00:00</lastmod>
     <image:image>
-      <image:loc>https://tudominio.com/images/logo.svg</image:loc>
+      <image:loc>https://beni84.github.io/Meowy/images/logo.svg</image:loc>
       <image:title>Logo de Meowy</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://tudominio.com/images/home_meowy.webp</image:loc>
+      <image:loc>https://beni84.github.io/Meowy/images/home_meowy.webp</image:loc>
       <image:title>Meowy App Mockup</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://tudominio.com/caracteristicas.html</loc>
-    <lastmod>2025-02-23</lastmod>
+    <loc>https://beni84.github.io/Meowy/caracteristicas.html</loc>
+    <lastmod>2025-02-23T20:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://tudominio.com/blog.html</loc>
-    <lastmod>2025-02-23</lastmod>
+    <loc>https://beni84.github.io/Meowy/blog.html</loc>
+    <lastmod>2025-02-23T20:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://tudominio.com/articulo-rutina-de-noche.html</loc>
-    <lastmod>2025-02-23</lastmod>
+    <loc>https://beni84.github.io/Meowy/articulo-rutina-de-noche.html</loc>
+    <lastmod>2025-02-23T20:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://tudominio.com/articulo-vitaminas-y-drenadores.html</loc>
-    <lastmod>2025-02-23</lastmod>
+    <loc>https://beni84.github.io/Meowy/articulo-vitaminas-y-drenadores.html</loc>
+    <lastmod>2025-02-23T20:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://tudominio.com/articulo-journaling-minimalista.html</loc>
-    <lastmod>2025-02-23</lastmod>
+    <loc>https://beni84.github.io/Meowy/articulo-journaling-minimalista.html</loc>
+    <lastmod>2025-02-23T20:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://tudominio.com/contacto.html</loc>
-    <lastmod>2025-02-23</lastmod>
+    <loc>https://beni84.github.io/Meowy/contacto.html</loc>
+    <lastmod>2025-02-23T20:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://tudominio.com/faq.html</loc>
-    <lastmod>2025-02-23</lastmod>
+    <loc>https://beni84.github.io/Meowy/faq.html</loc>
+    <lastmod>2025-02-23T20:00:00+00:00</lastmod>
   </url>
 </urlset>
